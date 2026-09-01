@@ -1,0 +1,132 @@
+body {
+  color: #212529;
+}
+
+.navbar {
+  min-height: 84px;
+  padding: 0.75rem 1.5rem;
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+}
+
+.navbar-nav {
+  margin-right: 0.75rem;
+}
+
+.navbar-nav .nav-link,
+.navbar .form-control,
+.navbar .btn {
+  font-size: 1.25rem;
+}
+
+.navbar .form-control {
+  width: 310px;
+  height: 56px;
+}
+
+.navbar .btn {
+  height: 56px;
+  padding-right: 1.1rem;
+  padding-left: 1.1rem;
+}
+
+.carousel-item,
+.carousel-item img {
+  height: 845px;
+}
+
+.carousel-item img {
+  object-fit: cover;
+}
+
+.carousel-caption {
+  top: 50%;
+  bottom: auto;
+  transform: translateY(-50%);
+}
+
+.carousel-caption h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.carousel-caption p {
+  font-size: 1.45rem;
+}
+
+.carousel-indicators {
+  bottom: 26px;
+}
+
+.carousel-indicators li {
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+  margin-left: 5px;
+  border: 0;
+  border-radius: 50%;
+}
+
+.cards-section {
+  max-width: 1665px;
+}
+
+.card-img-top {
+  height: 350px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.card-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.card-text,
+.card .btn {
+  font-size: 1.35rem;
+}
+
+.card-text {
+  line-height: 1.55;
+}
+
+@media (max-width: 991.98px) {
+  .navbar,
+  .navbar .form-control,
+  .navbar .btn {
+    min-height: auto;
+    height: auto;
+  }
+
+  .navbar .form-control {
+    width: auto;
+  }
+
+  .carousel-item,
+  .carousel-item img {
+    height: 60vh;
+    min-height: 430px;
+  }
+
+  .cards-section {
+    padding-top: 1rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .carousel-item,
+  .carousel-item img {
+    height: 55vh;
+    min-height: 360px;
+  }
+
+  .card-img-top {
+    height: 260px;
+  }
+}
